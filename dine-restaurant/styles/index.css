@@ -120,4 +120,17 @@ a.link__book-table {
     letter-spacing: -1px;
     margin-bottom: 0.625rem;
   }
+
+  a.link__book-table {
+    margin: 0;
+  }
+
+  a.link__book-table {
+    transition: all 0.3s ease-in-out;
+  }
+
+  a.link__book-table:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
 }
