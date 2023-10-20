@@ -109,3 +109,15 @@ a.link__book-table {
     line-height: 1.875rem;
   }
 }
+
+@media (min-width: 90rem) {
+  /* ==========
+  TYPOGRAPHY
+  ========== */
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -1px;
+    margin-bottom: 0.625rem;
+  }
+}
